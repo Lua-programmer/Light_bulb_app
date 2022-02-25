@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    background-color: #213242;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 0 1rem;
+    color: #CD9A03;
+}
+
+.image, .btn {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 10rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    color: #FFFFFF;
+    background-color: #CD9A03;
+    box-shadow: .2rem .2rem .5rem black;
+    cursor: pointer;
+}
+
+.container {
+    border: .2rem  #3E0561;
+    border-radius: 2%;
+    margin: 5rem 20rem;
+    padding: 3rem 0;
+    background-color: rgba(255, 255, 255, 0.2)
+}
