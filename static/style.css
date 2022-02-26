@@ -14,7 +14,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    padding: 2rem 0 0 1rem;
+    padding: 1rem 0 0 1rem;
     color: #CD9A03;
 }
 
@@ -22,6 +22,10 @@ header {
     display: flex;
     justify-content: center;
     margin: 2rem 10rem;
+}
+
+img {
+    border-radius: 1rem;
 }
 
 .btn {
@@ -41,7 +45,13 @@ button {
 .container {
     border: .2rem  #3E0561;
     border-radius: 2%;
-    margin: 5rem 20rem;
+    margin: 3rem 20rem;
     padding: 3rem 0;
-    background-color: rgba(255, 255, 255, 0.2)
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container > h4 {
+    text-align: center;
+    color: #CD9A03;
+    display: none;
 }

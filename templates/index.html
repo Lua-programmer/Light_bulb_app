@@ -16,14 +16,16 @@
     </header>
     <main>
         <div class="container">
-            <div class="image">
-                <img src="../static/img/apagada.png" alt="lampada apagada">
+            <h4 id="subtitle">Você quebrou a lâmpada, reinicie a aplicação!</h4>
+            <div class="image" id="quebrar-lampada" onclick="quebrarLampada()" >
+                <img id="lampada"  src="https://i.stack.imgur.com/b983w.jpg" alt="lampada apagada">
             </div>
             <div class="btn">
-                <button>Ligar</button>
-                <button>Desligar</button>
+                <button id="ligar-lampada" onclick="ligarLampada()" >Ligar</button>
+                <button id="desligar-lampada" onclick="desligarLampada()" >Desligar</button>
             </div>
         </div>
     </main>
+    <script src="../static/script.js"></script>
 </body>
 </html>
